@@ -3,13 +3,32 @@
 
   <head>
 
+      
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BD893FJMS2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BD893FJMS2');
+</script>
+
+
+<!-- end of google tag -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
 
-    <title>Education Meeting HTML5 Template</title>
+    <title>Better Globe Forestry Ltd - Home Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +39,7 @@
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 <!--
 
 TemplateMo 569 Edu Meeting
@@ -27,6 +47,165 @@ TemplateMo 569 Edu Meeting
 https://templatemo.com/tm-569-edu-meeting
 
 -->
+
+<style>
+  #typed-paragraph {
+    font-size: 1.2rem;
+    color: #444;
+  }
+
+  #typed-paragraph::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+    color: green;
+    margin-left: 5px;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+
+  /*** Service ***/
+.service-item {
+    position: relative;
+    margin: 65px 0 25px 0;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .07);
+}
+
+.service-item .service-img {
+    position: absolute;
+    padding: 12px;
+    width: 130px;
+    height: 130px;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .09);
+    z-index: 2;
+}
+
+.service-item .service-detail {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.service-item .service-title {
+    position: absolute;
+    padding: 65px 30px 25px 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    transition: .5s;
+}
+
+.service-item:hover .service-title {
+    top: -100%;
+}
+
+.service-item .service-text {
+    position: absolute;
+    overflow: hidden;
+    padding: 65px 30px 25px 30px;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgba(162, 100, 62, 0.603);
+    transition: .5s;
+}
+
+.service-item:hover .service-text {
+    top: 0;
+}
+
+.service-item .service-text::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100px;
+    top: -100%;
+    left: 0;
+    transform: skewY(-12deg);
+    background: #FFFFFF;
+    transition: .5s;
+}
+
+.service-item:hover .service-text::before {
+    top: -55px;
+}
+
+.service-item .btn {
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary);
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .09);
+    z-index: 2;
+}
+
+.service-item .btn:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+}
+
+
+/*** Facts ***/
+/*** Counter Start ***/
+.counter {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527)), url(bgf/assets/img/caroussel\ 2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter .counter-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter .counter-item .counter-item-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: var(--bs-primary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/*** Counter End ***/
+
+
+</style>
+
   </head>
 
 <body>
@@ -37,16 +216,17 @@ https://templatemo.com/tm-569-edu-meeting
       <div class="row">
         <div class="col-lg-8 col-sm-8">
           <div class="left-content">
-            <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p>
+            <p>Better Globe Forestry Ltd</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/people/Better-Globe-Forestry-Ltd/100057269177470/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://x.com/BetterglobeF?s=20" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com/@betterglobeforestrybgf" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/better-globe-forestry/" target="_blank"><i class="fa fa-linkedin"></i></a></li> 
+              <li><a href="https://www.instagram.com/betterglobeforestryltd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa fa-instagram"></i></a></li> 
             </ul>
           </div>
         </div>
@@ -62,23 +242,103 @@ https://templatemo.com/tm-569-edu-meeting
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
                       <a href="index.html" class="logo">
-                          Edu Meeting
+                        <img src="assets/images/logo.png" alt="Logo" style="height: 90px;">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li><a href="meetings.html">Meetings</a></li>
-                          <li class="scroll-to-section"><a href="#apply">Apply Now</a></li>
+                          <li class="scroll-to-section"><a href="index.html" class="active">Home</a></li>
                           <li class="has-sub">
-                              <a href="javascript:void(0)">Pages</a>
+                            <a href="javascript:void(0)">About</a>
+                            <ul class="sub-menu">
+                              <li><a href="bgf/about copy 2.html">Who we are</a></li>
+                              <li><a href="bgf/about.html">Vision & Mission</a></li>
+                              <li><a href="bgf/management.html">Leadership & Ownership</a></li>
+                              <li><a href="bgf/blog copy.html" class="active">Core Values</a></li>
+                              <li><a href="bgf/blog copy.html">Our Story</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">Our Impact</a>
+                            <ul class="sub-menu">
+                              <li><a href="bgf/impact.html">By the Numbers</a></li>
+                              <li><a href="bgf/about.html">Community & Social Stories</a></li>
+                              <li><a href="bgf/management.html">Environmental Restoration</a></li>
+                              <li><a href="bgf/blog copy.html" class="active">Education & Microfinance</a></li>
+                              <li><a href="bgf/blog copy.html"> Impact Map</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">What We Offer</a>
+                            <ul class="sub-menu">
+                              <li><a href="bgf/impact.html">Go Global</a></li>
+                              <li><a href="bgf/about.html">Carbon & Gum Programme</a></li>
+                              <li><a href="bgf/management.html">Grant & CSR Partnerships</a></li>
+                              <li><a href="bgf/blog copy.html" class="active">Tailor Made Forestry Solutions</a></li>
+                              <li><a href="bgf/blog copy.html"> Forestry Management Services</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-sub">
+                            <a href="javascript:void(0)">Projects</a>
+                            <ul class="sub-menu">
+                              <li><a href="bgf/impact.html">Portfolio</a></li>
+                              <li><a href="bgf/about.html">Case Studies</a></li>
+                              <li><a href="bgf/management.html">Before–After Gallery</a></li>
+                              <!-- <li><a href="bgf/blog copy.html" class="active">Tailor Made Forestry Solutions</a></li>
+                              <li><a href="bgf/blog copy.html"> Forestry Management Services</a></li> -->
+                            </ul>
+                        </li>
+
+                          <li class="has-sub">
+                            <a href="javascript:void(0)">Partners</a>
+                            <ul class="sub-menu">
+                              <li><a href="bgf/impact.html">Trusted Partners</a></li>
+                              <li><a href="bgf/about.html">How to Partner</a></li>
+                              <li><a href="bgf/management.html">Governance & Transparency Statement</a></li>
+                              <!-- <li><a href="bgf/blog copy.html" class="active">Tailor Made Forestry Solutions</a></li>
+                              <li><a href="bgf/blog copy.html"> Forestry Management Services</a></li> -->
+                            </ul>
+                        </li>
+
+
+                         <li class="has-sub">
+                            <a href="javascript:void(0)">Insights & Resources</a>
+                            <ul class="sub-menu">
+                              <li><a href="bgf/impact.html">Blog</a></li>
+                              <li><a href="bgf/about.html">Publications</a></li>
+                              <li><a href="bgf/management.html">Dryland Forestry Academy</a></li>
+                              <li><a href="bgf/blog copy.html" class="active">Newsletter Archive</a></li>
+                              <!-- <li><a href="bgf/blog copy.html"> Forestry Management Services</a></li> -->
+                            </ul>
+                        </li>
+                        
+
+                          <!-- <li class="scroll-to-section"><a href="#apply">About Us</a></li> -->
+                          <!-- <li class="has-sub"><a href="javascript:void(0)">Our Services</a>
                               <ul class="sub-menu">
-                                  <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                  <li><a href="meeting-details.html">Meeting Details</a></li>
+                                  <li><a href="bgf/priviewservices.html">Services</a></li>
+                                  <li><a href="bgf/priviewproducts.html">Products</a></li>
+                                  <li><a href="bgf/priviewprojects.html">Projects</a></li>
                               </ul>
-                          </li>
-                          <li class="scroll-to-section"><a href="#courses">Courses</a></li> 
-                          <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+                          </li> -->
+
+                          <!-- <li><a href="https://betterglobeforestry.org" target="_blank">Foundation</a></li> -->
+
+                          <!-- <li class="has-sub"><a href="javascript:void(0)">Insights</a>
+                            <ul class="sub-menu">
+                              <li><a href="https://blog.betterglobeforestry.com" target="_blank">Blog</a></li>
+                              <li><a href="https://betterglobeforestry.s3.amazonaws.com/newsletterwebsite/newsletter.html" target="_blank">News</a></li>
+                              <li><a href="bgf/faqs.html">FAQs</a></li>  
+                              <li><a href="bgf/q&s.html">Timeline</a></li>                          
+                            </ul>
+                          </li>  -->
+
+                          <!-- <li><a href="bgf/testimonials.html">Partners</a></li>  -->
+                          <li><a href="bgf/contact.html">Contact Us</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -94,7 +354,7 @@ https://templatemo.com/tm-569-edu-meeting
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/course-video.mp4" type="video/mp4" />
+          <source src="assets/images/Drone-footage of Kiambere-plantation in 2015.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
@@ -102,11 +362,20 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="row">
               <div class="col-lg-12">
                 <div class="caption">
-              <h6>Hello Students</h6>
-              <h2>Welcome to Education</h2>
-              <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a>.</p>
+              <h6>
+              <h2 style="font-family: 'Open Sans', sans-serif; font-size: 24px;"> Immediate credibility and clarity, commercial + social forestry in one view.</h2>
+                <p id="typed-paragraph" style="color: rgb(151, 218, 96); font-family: 'Open Sans', sans-serif;"></p></h6>
+                <p id="typed-paragraph" style="color: rgb(151, 218, 96); font-family: 'Open Sans', sans-serif;"></p></h6>
+                <p></p>
+                <br>
+              <p>Better Globe Forestry develops purposeful forestry and agroforestry programmes across Africa’s drylands,  
+restoring ecosystems, empowering communities, and creating long-term value. </p>
+              <!-- <a rel="nofollow" href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster" target="_blank">Pressmaster</a> -->
               <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                  <div>
+                    <!-- <a href="https://salespage.betterglobeforestry.com/" target="_blank">Our Shop!</a>  -->
+                     <a href="https://miti-magazine.betterglobeforestry.com" target="_blank">Miti Magazine</a></div>
+                  <!-- <div class="scroll-to-section"></div> -->
               </div>
           </div>
               </div>
@@ -114,660 +383,271 @@ https://templatemo.com/tm-569-edu-meeting
           </div>
       </div>
   </section>
-  <!-- ***** Main Banner Area End ***** -->
 
-  <section class="services">
+
+
+  <!-- add section for numbers -->
+  <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <!-- <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="fw-medium text-uppercase text-primary mb-2">Our Services</p>
+                <h1 class="display-5 mb-4">We Provide Best Industrial Services</h1>
+            </div> -->
+            <div class="row gy-5 gx-4">
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="bgf/assets/img/caroussel 2.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="bgf/assets/img/caroussel 2.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Partner with Us</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">Better Globe Forestry Ltd - Planting Trees, Changing Lives.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="bgf/assets/img/miti.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="bgf/assets/img/miti.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Our Impacts</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">At Better Globe Forestry, we grow more than trees, we grow lasting value.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item">
+                        <img class="img-fluid" src="bgf/assets/img/jan teaching.jpg" alt="">
+                        <div class="service-img">
+                            <img class="img-fluid" src="bgf/assets/img/jan teaching.jpg" alt="">
+                        </div>
+                        <div class="service-detail">
+                            <div class="service-title">
+                                <hr class="w-25">
+                                <h3 class="mb-0">Discover Go Global</h3>
+                                <hr class="w-25">
+                            </div>
+                            <div class="service-text">
+                                <p class="text-white mb-0">A regenerative model combining reforestation, education, and microfinance for lasting impact.</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-light" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+  <!-- add section for CTA -->
+
+   <!-- Fact Counter -->
+        <div class="container-fluid counter py-5">
+            <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto " style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-tree fa-3x text-white"></i>
+                </div>
+                <h4 class="text-white my-4">Trees Standing</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="3232709">0</span>
+              <span class="h1 fw-bold text-white">M</span>
+                </div>
+            </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto" style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-map fa-3x text-white" title="Hectares of Land"></i>
+                </div>
+                <h4 class="text-white my-4">Hectares of Land</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="20800">0</span>
+              <span class="h1 fw-bold text-white">Ha</span>
+                </div>
+            </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto" style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-smog fa-3x text-white" title="Carbon Potential"></i>
+                </div>
+                <h4 class="text-white my-4">Carbon Potential</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="2.5">0</span>
+              <span class="h1 fw-bold text-white">M</span>
+                </div>
+            </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto" style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-tractor fa-3x text-white" title="Farmers"></i>
+                </div>
+                <h4 class="text-white my-4">Farmers</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="26000">0</span>
+              <span class="h1 fw-bold text-white">+</span>
+                </div>
+            </div>
+              </div>
+          </div>
+            </div>
+        </div>
+
+        <script>
+            // Counter animation
+            const counterElements = document.querySelectorAll('.counter-value');
+            
+            const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+            const target = parseFloat(entry.target.getAttribute('data-target'));
+            const duration = 2000; // Animation duration in milliseconds
+            const steps = 100;
+            const increment = target / steps;
+            let current = 0;
+            
+            const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+              entry.target.textContent = Math.round(current);
+              requestAnimationFrame(updateCounter);
+                } else {
+              entry.target.textContent = target;
+                }
+            };
+            
+            updateCounter();
+            observer.unobserve(entry.target);
+              }
+          });
+            }, { threshold: 0.5 });
+
+            counterElements.forEach(counter => {
+          observer.observe(counter);
+            });
+        </script>
+        <!-- Fact Counter -->
+
+
+
+  <!-- Footer -->
+
+	 <footer id="footer" class="footer">
+  <!-- Your existing content remains the same -->
+  <div class="footer-top">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="owl-service-item owl-carousel">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename" style="color: rgb(151, 218, 96);">Better Globe Forestry Ltd</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <div class="social-links mt-3" style="color: rgb(151, 218, 96);">
+              <a href="https://x.com/BetterglobeF?s=20" target="_blank"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.facebook.com/people/Better-Globe-Forestry-Ltd/100057269177470/" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/betterglobeforestryltd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/better-globe-forestry/" target="_blank"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.youtube.com/@betterglobeforestrybgf" target="_blank"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <a href="https://betterglobeforestry.com">
+            <img src="bgf/assets/img/bgf photos/BGF LOGO_001.jpg" alt="Logo" style="height: 90px; width: 80px; border-radius: 50%; object-fit: cover; padding: 8px;">
+          </a>
+          <a href="https://betterglobeforestry.org" target="_blank">
+            <img src="bgf/assets/img/Better Globe Foundation.png" alt="Logo" style="height: 90px; width: 80px; border-radius: 50%; object-fit: cover; padding: 8px;">
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 style="color: rgb(151, 218, 96);">Subscribe to our Newsletter</h4>
+          <div class="col-lg-6">
+            <form action="" class="form-subscribe php-email-form" method="post" name="submit-to-google-sheet">
+              <div class="form-group d-flex align-items-stretch">
+                <input type="email" name="email" class="form-control h-100" style="width: 200px;" placeholder="Enter your e-mail">
+                <input type="submit" class="btn btn-secondary px-4" value="Subcribe">
+              </div>
+            </form>
+            <span id="msg" style="color: green;"></span>
+          </div>
+
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxgpjBJ--x9xIiqCN9vMq4AbKGz26dZ6JVhT83LOQCuQhWh6XvrcPmuMySLXcliazpDJw/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
           
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-01.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Education</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Teachers</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Students</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-02.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Online Meeting</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-            <div class="item">
-              <div class="icon">
-                <img src="assets/images/service-icon-03.png" alt="">
-              </div>
-              <div class="down-content">
-                <h4>Best Networking</h4>
-                <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
-              </div>
-            </div>
-            
-          </div>
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Thank you for Subscribing!"
+                    setTimeout(function(){
+                      msg.innerHTML = ""
+                    },5000) 
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section class="upcoming-meetings" id="meetings">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h2>Upcoming Meetings</h2>
-          </div>
+  <div class="copyright text-center">
+    <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+      <div class="d-flex flex-column align-items-center align-items-lg-start">
+        <div style="color: white;">
+          © Copyright <strong><span>Better Globe Forestry Ltd</span></strong>. All Rights Reserved
         </div>
-        <div class="col-lg-4">
-          <div class="categories">
-            <h4>Meeting Catgories</h4>
-            <ul>
-              <li><a href="#">Sed tempus enim leo</a></li>
-              <li><a href="#">Aenean molestie quis</a></li>
-              <li><a href="#">Cras et metus vestibulum</a></li>
-              <li><a href="#">Nam et condimentum</a></li>
-              <li><a href="#">Phasellus nec sapien</a></li>
-            </ul>
-            <div class="main-button-red">
-              <a href="meetings.html">All Upcoming Meetings</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$22.00</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>10</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$36.00</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>24</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$14.00</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="Higher Education"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>26</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Higher Education Conference</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <div class="price">
-                    <span>$48.00</span>
-                  </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training"></a>
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6>Nov <span>30</span></h6>
-                  </div>
-                  <a href="meeting-details.html"><h4>Student Training Meetup</h4></a>
-                  <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="credits" style="color: white;">
+          Designed by <a href="https://betterglobeforestry.com/" style="color: rgb(228, 224, 165);">Better Globe Forestry Ltd - IT</a> 
         </div>
       </div>
-    </div>
-  </section>
 
-  <section class="apply-now" id="apply">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6 align-self-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="item">
-                <h3>APPLY FOR BACHELOR DEGREE</h3>
-                <p>You are allowed to use this edu meeting CSS template for your school or university or business. You can feel free to modify or edit this layout.</p>
-                <div class="main-button-red">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
-              </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="item">
-                <h3>APPLY FOR BACHELOR DEGREE</h3>
-                <p>You are not allowed to redistribute the template ZIP file on any other template website. Please contact us for more information.</p>
-                <div class="main-button-yellow">
-                  <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="accordions is-first-expanded">
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>About Edu Meeting HTML Template</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>If you want to get the latest collection of HTML CSS templates for your websites, you may visit <a rel="nofollow" href="https://www.toocss.com/" target="_blank">Too CSS website</a>. If you need a working contact form script, please visit <a href="https://templatemo.com/contact" target="_parent">our contact page</a> for more info.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>HTML CSS Bootstrap Layout</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>Etiam posuere metus orci, vel consectetur elit imperdiet eu. Cras ipsum magna, maximus at semper sit amet, eleifend eget neque. Nunc facilisis quam purus, sed vulputate augue interdum vitae. Aliquam a elit massa.<br><br>
-                        Nulla malesuada elit lacus, ac ultricies massa varius sed. Etiam eu metus eget nibh consequat aliquet. Proin fringilla, quam at euismod porttitor, odio odio tempus ligula, ut feugiat ex erat nec mauris. Donec viverra velit eget lectus sollicitudin tincidunt.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="accordion">
-                <div class="accordion-head">
-                    <span>Please tell your friends</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>Ut vehicula mauris est, sed sodales justo rhoncus eu. Morbi porttitor quam velit, at ullamcorper justo suscipit sit amet. Quisque at suscipit mi, non efficitur velit.<br><br>
-                        Cras et tortor semper, placerat eros sit amet, porta est. Mauris porttitor sapien et quam volutpat luctus. Nullam sodales ipsum ac neque ultricies varius.</p>
-                    </div>
-                </div>
-            </article>
-            <article class="accordion last-accordion">
-                <div class="accordion-head">
-                    <span>Share this to your colleagues</span>
-                    <span class="icon">
-                        <i class="icon fa fa-chevron-right"></i>
-                    </span>
-                </div>
-                <div class="accordion-body">
-                    <div class="content">
-                        <p>Maecenas suscipit enim libero, vel lobortis justo condimentum id. Interdum et malesuada fames ac ante ipsum primis in faucibus.<br><br>
-                        Sed eleifend metus sit amet magna tristique, posuere laoreet arcu semper. Nulla pellentesque ut tortor sit amet maximus. In eu libero ullamcorper, semper nisi quis, convallis nisi.</p>
-                    </div>
-                </div>
-            </article>
-        </div>
-        </div>
+      <div class="footer-contact pt-3">
+        <h3 style="color: rgb(151, 218, 96);">Our Links</h3>
+        <a href="bgf/about copy 2.html" style="color: aliceblue;">Who we are || </a>
+        <a href="https://betterglobeforestry.s3.amazonaws.com/newsletterwebsite/newsletter.html" target="_blank" style="color: aliceblue;">Newsletters || </a>
+        <a href="bgf/commercial.html" style="color: aliceblue;">commercial forest development</a>
+        <a href="bgf/faqs.html" style="color: aliceblue;">|| FAQs</a>
       </div>
     </div>
-  </section>
+  </div>
+</footer>
 
-  <section class="our-courses" id="courses">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h2>Our Popular Courses</h2>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="owl-courses-item owl-carousel">
-            <div class="item">
-              <img src="assets/images/course-01.jpg" alt="Course One">
-              <div class="down-content">
-                <h4>Morbi tincidunt elit vitae justo rhoncus</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$160</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-02.jpg" alt="Course Two">
-              <div class="down-content">
-                <h4>Curabitur molestie dignissim purus vel</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$180</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-03.jpg" alt="">
-              <div class="down-content">
-                <h4>Nulla at ipsum a mauris egestas tempor</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$140</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-04.jpg" alt="">
-              <div class="down-content">
-                <h4>Aenean molestie quis libero gravida</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$120</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-01.jpg" alt="">
-              <div class="down-content">
-                <h4>Lorem ipsum dolor sit amet adipiscing elit</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$250</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-02.jpg" alt="">
-              <div class="down-content">
-                <h4>TemplateMo is the best website for Free CSS</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$270</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-03.jpg" alt="">
-              <div class="down-content">
-                <h4>Web Design Templates at your finger tips</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$340</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-04.jpg" alt="">
-              <div class="down-content">
-                <h4>Please visit our website again</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$360</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-01.jpg" alt="">
-              <div class="down-content">
-                <h4>Responsive HTML Templates for you</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$400</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-02.jpg" alt="">
-              <div class="down-content">
-                <h4>Download Free CSS Layouts for your business</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$430</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-03.jpg" alt="">
-              <div class="down-content">
-                <h4>Morbi in libero blandit lectus cursus</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$480</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <img src="assets/images/course-04.jpg" alt="">
-              <div class="down-content">
-                <h4>Curabitur molestie dignissim purus</h4>
-                <div class="info">
-                  <div class="row">
-                    <div class="col-8">
-                      <ul>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                        <li><i class="fa fa-star"></i></li>
-                      </ul>
-                    </div>
-                    <div class="col-4">
-                       <span>$560</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="our-facts">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-12">
-              <h2>A Few Facts About Our University</h2>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content percentage">
-                    <div class="count-digit">94</div>
-                    <div class="count-title">Succesed Students</div>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">126</div>
-                    <div class="count-title">Current Teachers</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-12">
-                  <div class="count-area-content new-students">
-                    <div class="count-digit">2345</div>
-                    <div class="count-title">New Students</div>
-                  </div>
-                </div> 
-                <div class="col-12">
-                  <div class="count-area-content">
-                    <div class="count-digit">32</div>
-                    <div class="count-title">Awards</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> 
-        <div class="col-lg-6 align-self-center">
-          <div class="video">
-            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="assets/images/play-icon.png" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-us" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 align-self-center">
-          <div class="row">
-            <div class="col-lg-12">
-              <form id="contact" action="" method="post">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <h2>Let's get in touch</h2>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
-                  </fieldset>
-                  </div>
-                  <div class="col-lg-4">
-                    <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="right-info">
-            <ul>
-              <li>
-                <h6>Phone Number</h6>
-                <span>010-020-0340</span>
-              </li>
-              <li>
-                <h6>Email Address</h6>
-                <span>info@meeting.edu</span>
-              </li>
-              <li>
-                <h6>Street Address</h6>
-                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
-              </li>
-              <li>
-                <h6>Website URL</h6>
-                <span>www.meeting.edu</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved. 
-          <br>
-          Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
-          <br>
-          Distibuted By: <a href="https://themewagon.com" target="_blank" title="Build Better UI, Faster">ThemeWagon</a>
-        </p>
-    </div>
-  </section>
-
+  
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -826,6 +706,45 @@ https://templatemo.com/tm-569-edu-meeting
           checkSection();
         });
     </script>
+
+
+<!-- <p id="typed-paragraph"></p> -->
+<script>
+  const element = document.getElementById('typed-paragraph');
+  const textBeforeEm = '"Sustainable Forestry solutions for a ';
+  const emText = 'Better Tomorrow. ';
+  const textAfterEm = 'Together, we turn drylands into forests, and forests into futures."';
+  
+  let fullText = textBeforeEm + emText + textAfterEm;
+  let i = 0;
+
+  function typeEffect() {
+    if (i < fullText.length) {
+      if (i === textBeforeEm.length) {
+        element.innerHTML += '<em>';
+      }
+
+      if (i === textBeforeEm.length + emText.length) {
+        element.innerHTML += '</em>';
+      }
+
+      const char = fullText[i];
+      const isEmRange = i >= textBeforeEm.length && i < (textBeforeEm.length + emText.length);
+
+      if (isEmRange) {
+        element.querySelector('em').innerHTML += char;
+      } else {
+        element.innerHTML += char;
+      }
+
+      i++;
+      setTimeout(typeEffect, 80);
+    }
+  }
+
+  typeEffect();
+</script>
+
 </body>
 
 </body>
