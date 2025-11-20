@@ -371,7 +371,35 @@
 
   </main>
 
-   <footer id="footer" class="footer "  style="margin-top:5px;padding-top:8px;padding-bottom:8px;line-height:1.1;font-size:0.95rem;background: linear-gradient(180deg,#7a4f2a 0%, #b1753f 50%, #d8b48a 100%), url('../assets/images/backgroundForest.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; color:#fff;">
+   <footer id="footer" class="footer "  style="margin-top:5px;padding-top:8px;padding-bottom:8px;line-height:1.1;font-size:0.95rem;
+  /* dark overlay on the background image to ensure text contrast */
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('../assets/images/backgroundForest.jpg') center/cover no-repeat;
+  color:#fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+">
+
+<style>
+    /* small local styles to improve legibility */
+    #footer .sitename { color: #799a3d; font-weight:600; }
+    #footer a { color: #ffffff; text-decoration: none; }
+    #footer a:hover { color: #dba970; }
+    #footer .social-links a { color: #fff; font-size: 1.2rem; margin-right: 10px; }
+    #footer .footer-contact p, #footer .credits { color: rgba(255,255,255,0.92); }
+    /* make form inputs readable on dark overlay */
+    #footer .form-control { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #fff; }
+    #footer ::placeholder { color: rgba(255,255,255,0.7); }
+    #footer .btn-secondary { background-color: #79a53d; border: none; color: #fff; }
+    /* subtle backdrop blur for the footer content */
+    #footer .footer-top .container { backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+    /* ensure images keep good contrast */
+    #footer img { filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6)); }
+    @media (max-width: 576px) {
+      #footer .form-group { flex-direction: column; gap: 8px; }
+      #footer .form-control { width: 100% !important; }
+    }
+  </style>
 
     <div class="footer-top" style="background-color: rgba(27, 26, 26, 0.041);">
       <div class="container">

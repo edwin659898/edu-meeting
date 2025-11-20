@@ -243,92 +243,78 @@ empower communities through ethical and science-based approaches.</p>
 
   </main>
 
- <footer id="footer" class="footer "  style="margin-top:5px;padding-top:8px;padding-bottom:8px;line-height:1.1;font-size:0.95rem;background: linear-gradient(180deg,#7a4f2a 0%, #b1753f 50%, #d8b48a 100%), url('../assets/images/backgroundForest.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; color:#fff;">
+<footer id="footer" class="footer" style="margin-top:5px;padding-top:8px;padding-bottom:8px;line-height:1.1;font-size:0.95rem;
+  /* dark overlay on the background image to ensure text contrast */
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('../assets/images/backgroundForest.jpg') center/cover no-repeat;
+  color:#fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+">
 
-    <div class="footer-top" style="background-color: rgba(27, 26, 26, 0.041);">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename" style="color: rgb(121, 154, 61);">Better Globe Forestry Ltd</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <!-- <p>Olenguruone Ave Kileleshwa, Likoni Rd,</p>
-              <p>Total Petrol Station Building, 2nd Floor</p>
-              <p>Kileleshwa</p>
-              <p>Nairobi, Kenya</p>
-              <p>P.O Box 823-00606</p> -->
-              
-              <!-- <p class="mt-3"><strong>Phone:</strong> <span>+254 110 066 043</span></p>
-              <p><strong>Email:</strong> <span>info@betterglobeforestry.com</span></p> -->
-              <div class="social-links mt-3">
-                  <a href="https://x.com/BetterglobeF?s=20" target="_blank" ><i class="bi bi-twitter-x"></i></a>
-                  <a href="https://www.facebook.com/people/Better-Globe-Forestry-Ltd/100057269177470/" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/betterglobeforestryltd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/company/better-globe-forestry/" target="_blank" ><i class="bi bi-linkedin"></i></a>
-                  <a href="https://www.youtube.com/@betterglobeforestrybgf" target="_blank"><i class="bi bi-youtube"></i></a>
-         </div>
-            </div>
+  <style>
+    /* small local styles to improve legibility */
+    #footer .sitename { color: #799a3d; font-weight:600; }
+    #footer a { color: #ffffff; text-decoration: none; }
+    #footer a:hover { color: #dba970; }
+    #footer .social-links a { color: #fff; font-size: 1.2rem; margin-right: 10px; }
+    #footer .footer-contact p, #footer .credits { color: rgba(255,255,255,0.92); }
+    /* make form inputs readable on dark overlay */
+    #footer .form-control { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #fff; }
+    #footer ::placeholder { color: rgba(255,255,255,0.7); }
+    #footer .btn-secondary { background-color: #79a53d; border: none; color: #fff; }
+    /* subtle backdrop blur for the footer content */
+    #footer .footer-top .container { backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+    /* ensure images keep good contrast */
+    #footer img { filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6)); }
+    @media (max-width: 576px) {
+      #footer .form-group { flex-direction: column; gap: 8px; }
+      #footer .form-control { width: 100% !important; }
+    }
+  </style>
+
+  <div class="footer-top" style="background-color: rgba(27, 26, 26, 0.04);">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename" style="color: rgb(121, 154, 61);">Better Globe Forestry Ltd</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <div class="social-links mt-3">
+                <a href="https://x.com/BetterglobeF?s=20" target="_blank" ><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/people/Better-Globe-Forestry-Ltd/100057269177470/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/betterglobeforestryltd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/better-globe-forestry/" target="_blank" ><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.youtube.com/@betterglobeforestrybgf" target="_blank"><i class="bi bi-youtube"></i></a>
+           </div>
           </div>
+        </div>
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div> -->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <!-- <h4 style="color: rgb(151, 218, 96);">Our Services</h4> -->
-            <!-- <ul>
-              <li><a href="#">Commercial Forestry Development</a></li>
-              <li><a href="#">Carbon Credit Programs</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Agroforestry and Farmer Engagement</a></li>
-              <li><a href="#">Forestry Consultancies</a></li>
-              <li><a href="#">Capacity Building</a></li>
-            </ul> -->
-         <!-- <a href="https://betterglobeforestry.com">
-            <img src="assets/img/bgf photos/BGF LOGO_001.jpg" alt="Logo" style="height: 90px; width: 80px; border-radius: 70%; object-fit: cover; padding: 8px;">
-          </a> -->
+        <div class="col-lg-2 col-md-3 footer-links">
           <a href="https://betterglobeforestry.org" target="_blank">
             <img src="assets/img/Better Globe Foundation.png" alt="Logo" style="height: 90px; width: 80px; border-radius: 70%; object-fit: cover; padding: 8px;">
           </a>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <!-- reserved for additional content -->
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 style="color:  rgb(121, 154, 61);">Subscribe to our Newsletter</h4>
+          <div class="col-lg-6">
+            <form action="" class="form-subscribe php-email-form" method="post" name="submit-to-google-sheet">
+              <div class="form-group d-flex align-items-stretch">
+                <input type="email" name="email" class="form-control h-100" style="width: 200px;" placeholder="Enter your e-mail">
+                <input type="submit" class="btn btn-secondary px-4" value="Subscribe">
+              </div>
+            </form>
+            <span id="msg" style="color: #9fdf95;"></span>
           </div>
+        </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <!-- <h4>Our Facebook Page</h4> -->
-            <!-- <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
-            </ul> -->
-            <!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100057269177470&tabs=timeline&width=300&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-
-          
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-  <h4 style="color:  rgb(121, 154, 61);">Subscribe to our Newsletter</h4>
-  <div class="col-lg-6">
-              <form action="" class="form-subscribe php-email-form" method="post" name="submit-to-google-sheet">
-                <div class="form-group d-flex align-items-stretch">
-                  <input type="email" name="email" class="form-control h-100" style="width: 200px;" placeholder="Enter your e-mail">
-                  <input type="submit" class="btn btn-secondary px-4" value="Subcribe">
-                </div>
-                 
-              </form>
-              <span id="msg" style="color: green;"></span>
-            </div>
-
-
-  <script>
+        <script>
           const scriptURL = 'https://script.google.com/macros/s/AKfycbxgpjBJ--x9xIiqCN9vMq4AbKGz26dZ6JVhT83LOQCuQhWh6XvrcPmuMySLXcliazpDJw/exec'
           const form = document.forms['submit-to-google-sheet']
           const msg = document.getElementById("msg")
