@@ -170,7 +170,7 @@
 // hero section
 
   const phrases = [
-    "Better Globe Forestry Ltd -  Planting Trees, Changing Lives,"
+    "Sustainable Forestry solutions for a Better Tomorrow."
   ];
 
   let i = 0;

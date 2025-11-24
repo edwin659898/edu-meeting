@@ -43,6 +43,12 @@
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/main.css" rel="stylesheet">
 
+      <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+
   <!-- =======================================================
   * Template Name: AgriCulture
   * Template URL: https://bootstrapmade.com/agriculture-bootstrap-website-template/
@@ -50,6 +56,39 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+
+  /*** Facts ***/
+/*** Counter Start ***/
+.counter {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527)), url(assets/img/caroussel\ 2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counter .counter-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.counter .counter-item .counter-item-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: var(--bs-primary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+/*** Counter End ***/
+
+
+</style>
 </head>
 
 <body class="about-page">
@@ -63,19 +102,20 @@
         <!-- <h1 class="sitename">AgriCulture</h1>  -->
       </a>
 
-      <nav id="navmenu" class="navmenu">
+    <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li class="dropdown"><a href="#" class="active"><span>About Us</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#"><span>About Us</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="about copy 2.html">Who we are</a></li>
               <li><a href="about.html">Vision & Mission</a></li>
-              <li><a href="impact.html">Our Impact</a></li>
-              <li><a href="management.html">Management Team</a></li>
+              <!-- <li><a href="impact.html">Our Impact</a></li> -->
+              <li><a href="management.html">Executive Team</a></li>
               <li><a href="blog copy.html">Core Values</a></li>
+              <li><a href="q&s.html">Our Story</a></li> 
             </ul>
           </li>
-          <li class="dropdown"><a href="#" ><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <!-- <li class="dropdown"><a href="#" ><span>Our Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           
             <ul>
               <li class="dropdown"><a href="priviewservices.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -101,25 +141,68 @@
                   <li><a href="https://salespage.betterglobeforestry.com" target="_blank">Our Shop</a></li>
                 </ul>
               </li>
-              <!-- <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li> -->
+              
             </ul>          
-        </li>
+        </li> -->
 
-          <li><a href="https://betterglobeforestry.org" target="_blank">Foundation</a></li>
+          <li class="dropdown"><a href="#" class="active"><span>Our Impact</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                              <li><a href="impact.html" class="active">By the Numbers</a></li>
+                              <li><a href="capacity.html">Community & Social Stories</a></li>
+                              <li><a href="agroforestry.html">Environmental Restoration</a></li>
+                              <li><a href="carbon.html">Education & Microfinance</a></li>
+                              <li><a href="future.html"> Impact Map</a></li>
+                            </ul>          
+          </li>
+
+
+          <li class="dropdown"><a href="#"><span>What We Offer</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                              <li><a href="bgf/impact.html">Go Global</a></li>
+                              <li><a href="bgf/about.html">Carbon & Gum Programme</a></li>
+                              <li><a href="bgf/management.html">Grant & CSR Partnerships</a></li>
+                              <li><a href="bgf/blog copy.html">Tailor Made Forestry Solutions</a></li>
+                              <li><a href="bgf/blog copy.html"> Forestry Management Services</a></li>
+                            </ul>         
+          </li>
+
+
+          <li class="dropdown"><a href="#" ><span>Projects</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                              <li><a href="impact.html">Portfolio</a></li>
+                              <li><a href="about.html">Case Studies</a></li>
+                              <li><a href="management.html">Before–After Gallery</a></li>
+                              <!-- <li><a href="blog copy.html" class="active">Tailor Made Forestry Solutions</a></li>
+                              <li><a href="blog copy.html"> Forestry Management Services</a></li> -->
+                            </ul>         
+          </li>
+
+
+          <li class="dropdown"><a href="#" ><span>Partners</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+                             <li><a href="impact.html">Trusted Partners</a></li>
+                              <li><a href="about.html">How to Partner</a></li>
+                              <li><a href="management.html">Governance & Transparency Statement</a></li>
+                              <!-- <li><a href="blog copy.html">Tailor Made Forestry Solutions</a></li>
+                              <li><a href="blog copy.html"> Forestry Management Services</a></li> -->
+                            </ul>         
+          </li>
+
+
+          <li class="dropdown"><a href="#" ><span>Insights & Resources</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> 
+            <ul>
+                              <li><a href="impact.html">Blog</a></li>
+                              <li><a href="about.html">Publications</a></li>
+                              <li><a href="management.html">Dryland Forestry Academy</a></li>
+                              <li><a href="blog copy.html">Newsletter Archive</a></li>
+                              <!-- <li><a href="blog copy.html"> Forestry Management Services</a></li> -->
+                            </ul>        
+          </li>
 
 
           
-            <li class="dropdown"><a href="#"><span>Insights</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-              <ul>
-                <li><a href="https://blog.betterglobeforestry.com" target="_blank">Blog</a></li>
-                <li><a href="https://betterglobeforestry.s3.amazonaws.com/newsletterwebsite/newsletter.html" target="_blank">News</a></li>
-                <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="q&s.html">Timeline</a></li>
-              </ul>
-            </li>
-          <li><a href="testimonials.html">Partners</a></li>
+           
+          <!-- <li><a href="testimonials.html">Partners</a></li> -->
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
@@ -151,12 +234,12 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/photos/products/DSC_0416.jpg);">
       <div class="container position-relative">
-        <h1>Our Impact</h1>
+        <h1>By the Numbers</h1>
         <p id="typed-text" style="font-size: 24px;"></p>
          <nav class="breadcrumbs">
           <ol>
-            <!-- <li><a href="index.html">Home</a></li>
-            <li class="current">About</li> -->
+            <!-- <li><a href="index.html">Our Impact</a></li>
+            <li class="current">By the Numbers</li> -->
           </ol>
         </nav>
       </div>
@@ -165,16 +248,12 @@
 
     <!-- content -->
 
-    <section class="features">
+    <!-- <section class="features">
       <div class="container">
       
-        <!-- <div class="section-title">
-          <h2>ABOUT US</h2> 
-          
-        </div> -->
       
         <div class="row align-items-center" data-aos="fade-up">
-          <!-- Left: Carousel with two images -->
+          
           <div class="col-md-5 order-1 order-md-2">
             <div id="impactCarousel" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
@@ -185,7 +264,7 @@
                   <img src="assets/img/website/kiambere2.jpg" class="d-block w-100 img-fluid rounded" alt="Impact Image 2">
                 </div>
               </div>
-              <!-- Optional controls -->
+              
               <button class="carousel-control-prev" type="button" data-bs-target="#impactCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
               </button>
@@ -195,7 +274,7 @@
             </div>
           </div>
         
-          <!-- Right: Impact text -->
+          
           <div class="col-md-7 pt-5 order-2 order-md-1">
             <h3>Our Impact.</h3>
             <p>
@@ -211,7 +290,106 @@ Together, we drive economic, social, and environmental change.</p>
       
         
       </div>
-      </section><!--end of features-->
+      </section> -->
+
+
+
+       <!-- Fact Counter -->
+        <div class="container-fluid counter py-5">
+            <div class="container py-5">
+          <div class="row g-5">
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto " style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-tree fa-3x text-white"></i>
+                </div>
+                <h4 class="text-white my-4">Trees Standing</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="3232709">0</span>
+              <span class="h1 fw-bold text-white">M</span>
+                </div>
+            </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto" style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-map fa-3x text-white" title="Hectares of Land"></i>
+                </div>
+                <h4 class="text-white my-4">Hectares of Land</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="20800">0</span>
+              <span class="h1 fw-bold text-white">Ha</span>
+                </div>
+            </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto" style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-smog fa-3x text-white" title="Carbon Potential"></i>
+                </div>
+                <h4 class="text-white my-4">Carbon Potential</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="2.5">0</span>
+                <span class="h1 fw-bold text-white">MtCO₂</span>
+                </div>
+            </div>
+              </div>
+
+              <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+            <div class="counter-item">
+                <div class="counter-item-icon mx-auto" style="background: linear-gradient(rgba(66, 154, 25, 0.9), rgba(154, 113, 25, 0.527))">
+              <i class="fas fa-tractor fa-3x text-white" title="Farmers"></i>
+                </div>
+                <h4 class="text-white my-4">Farmers</h4>
+                <div class="counter-counting">
+              <span class="text-white fs-2 fw-bold counter-value" data-target="26000">0</span>
+              <span class="h1 fw-bold text-white">+</span>
+                </div>
+            </div>
+              </div>
+          </div>
+            </div>
+        </div>
+
+        <script>
+            // Counter animation
+            const counterElements = document.querySelectorAll('.counter-value');
+            
+            const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+              if (entry.isIntersecting) {
+            const target = parseFloat(entry.target.getAttribute('data-target'));
+            const duration = 2000; // Animation duration in milliseconds
+            const steps = 100;
+            const increment = target / steps;
+            let current = 0;
+            
+            const updateCounter = () => {
+                current += increment;
+                if (current < target) {
+              entry.target.textContent = Math.round(current);
+              requestAnimationFrame(updateCounter);
+                } else {
+              entry.target.textContent = target;
+                }
+            };
+            
+            updateCounter();
+            observer.unobserve(entry.target);
+              }
+          });
+            }, { threshold: 0.5 });
+
+            counterElements.forEach(counter => {
+          observer.observe(counter);
+            });
+        </script>
+        <!-- Fact Counter -->
+
+
+
 
     <!-- End of Content -->
 
@@ -222,92 +400,78 @@ Together, we drive economic, social, and environmental change.</p>
 
   </main>
 
- <footer id="footer" class="footer "  style="background-color: rgb(20, 20, 20);">
+ <footer id="footer" class="footer" style="margin-top:5px;padding-top:8px;padding-bottom:8px;line-height:1.1;font-size:0.95rem;
+  /* dark overlay on the background image to ensure text contrast */
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url('../assets/images/backgroundForest.jpg') center/cover no-repeat;
+  color:#fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+">
 
-    <div class="footer-top" style="background-color: rgba(27, 26, 26, 0.041);">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename" style="color: rgb(151, 218, 96);">Better Globe Forestry Ltd</span>
-            </a>
-            <div class="footer-contact pt-3">
-              <!-- <p>Olenguruone Ave Kileleshwa, Likoni Rd,</p>
-              <p>Total Petrol Station Building, 2nd Floor</p>
-              <p>Kileleshwa</p>
-              <p>Nairobi, Kenya</p>
-              <p>P.O Box 823-00606</p> -->
-              
-              <!-- <p class="mt-3"><strong>Phone:</strong> <span>+254 110 066 043</span></p>
-              <p><strong>Email:</strong> <span>info@betterglobeforestry.com</span></p> -->
-              <div class="social-links mt-3">
-                  <a href="https://x.com/BetterglobeF?s=20" target="_blank" ><i class="bi bi-twitter-x"></i></a>
-                  <a href="https://www.facebook.com/people/Better-Globe-Forestry-Ltd/100057269177470/" target="_blank"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/betterglobeforestryltd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/company/better-globe-forestry/" target="_blank" ><i class="bi bi-linkedin"></i></a>
-                  <a href="https://www.youtube.com/@betterglobeforestrybgf" target="_blank"><i class="bi bi-youtube"></i></a>
-         </div>
-            </div>
-          </div>
+  <style>
+    /* small local styles to improve legibility */
+    #footer .sitename { color: #799a3d; font-weight:600; }
+    #footer a { color: #ffffff; text-decoration: none; }
+    #footer a:hover { color: #dba970; }
+    #footer .social-links a { color: #fff; font-size: 1.2rem; margin-right: 10px; }
+    #footer .footer-contact p, #footer .credits { color: rgba(255,255,255,0.92); }
+    /* make form inputs readable on dark overlay */
+    #footer .form-control { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); color: #fff; }
+    #footer ::placeholder { color: rgba(255,255,255,0.7); }
+    #footer .btn-secondary { background-color: #79a53d; border: none; color: #fff; }
+    /* subtle backdrop blur for the footer content */
+    #footer .footer-top .container { backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+    /* ensure images keep good contrast */
+    #footer img { filter: drop-shadow(0 2px 4px rgba(0,0,0,0.6)); }
+    @media (max-width: 576px) {
+      #footer .form-group { flex-direction: column; gap: 8px; }
+      #footer .form-control { width: 100% !important; }
+    }
+  </style>
 
-          <!-- <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div> -->
-
-          <div class="col-lg-2 col-md-3 footer-links">
-            <!-- <h4 style="color: rgb(151, 218, 96);">Our Services</h4> -->
-            <!-- <ul>
-              <li><a href="#">Commercial Forestry Development</a></li>
-              <li><a href="#">Carbon Credit Programs</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Agroforestry and Farmer Engagement</a></li>
-              <li><a href="#">Forestry Consultancies</a></li>
-              <li><a href="#">Capacity Building</a></li>
-            </ul> -->
-         <a href="https://betterglobeforestry.com">
-            <img src="assets/img/bgf photos/BGF LOGO_001.jpg" alt="Logo" style="height: 90px; width: 80px; border-radius: 70%; object-fit: cover; padding: 8px;">
+  <div class="footer-top" style="background-color: rgba(27, 26, 26, 0.04);">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename" style="color: rgb(121, 154, 61);">Better Globe Forestry Ltd</span>
           </a>
+          <div class="footer-contact pt-3">
+            <div class="social-links mt-3">
+                <a href="https://x.com/BetterglobeF?s=20" target="_blank" ><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.facebook.com/people/Better-Globe-Forestry-Ltd/100057269177470/" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/betterglobeforestryltd?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" ><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/better-globe-forestry/" target="_blank" ><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.youtube.com/@betterglobeforestrybgf" target="_blank"><i class="bi bi-youtube"></i></a>
+           </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
           <a href="https://betterglobeforestry.org" target="_blank">
             <img src="assets/img/Better Globe Foundation.png" alt="Logo" style="height: 90px; width: 80px; border-radius: 70%; object-fit: cover; padding: 8px;">
           </a>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <!-- reserved for additional content -->
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 style="color:  rgb(121, 154, 61);">Subscribe to our Newsletter</h4>
+          <div class="col-lg-6">
+            <form action="" class="form-subscribe php-email-form" method="post" name="submit-to-google-sheet">
+              <div class="form-group d-flex align-items-stretch">
+                <input type="email" name="email" class="form-control h-100" style="width: 200px;" placeholder="Enter your e-mail">
+                <input type="submit" class="btn btn-secondary px-4" value="Subscribe">
+              </div>
+            </form>
+            <span id="msg" style="color: #9fdf95;"></span>
           </div>
+        </div>
 
-          <div class="col-lg-2 col-md-3 footer-links">
-            <!-- <h4>Our Facebook Page</h4> -->
-            <!-- <ul>
-              <li><a href="#">Molestiae accusamus iure</a></li>
-              <li><a href="#">Excepturi dignissimos</a></li>
-              <li><a href="#">Suscipit distinctio</a></li>
-              <li><a href="#">Dilecta</a></li>
-              <li><a href="#">Sit quas consectetur</a></li>
-            </ul> -->
-            <!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100057269177470&tabs=timeline&width=300&height=200&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-
-          
-          </div>
-
-          <div class="col-lg-2 col-md-3 footer-links">
-  <h4 style="color: rgb(151, 218, 96);">Subscribe to our Newsletter</h4>
-  <div class="col-lg-6">
-              <form action="" class="form-subscribe php-email-form" method="post" name="submit-to-google-sheet">
-                <div class="form-group d-flex align-items-stretch">
-                  <input type="email" name="email" class="form-control h-100" style="width: 200px;" placeholder="Enter your e-mail">
-                  <input type="submit" class="btn btn-secondary px-4" value="Subcribe">
-                </div>
-                 
-              </form>
-              <span id="msg" style="color: green;"></span>
-            </div>
-
-
-  <script>
+        <script>
           const scriptURL = 'https://script.google.com/macros/s/AKfycbxgpjBJ--x9xIiqCN9vMq4AbKGz26dZ6JVhT83LOQCuQhWh6XvrcPmuMySLXcliazpDJw/exec'
           const form = document.forms['submit-to-google-sheet']
           const msg = document.getElementById("msg")
@@ -334,41 +498,55 @@ Together, we drive economic, social, and environmental change.</p>
       </div>
     </div>
 
-    <div class="copyright text-center">
-      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
-
-        <div class="d-flex flex-column align-items-center align-items-lg-start">
-          <div style="color: white;">
-            © Copyright <strong><span>Better Globe Forestry Ltd Ltd</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits" style="color: white;">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
-            Designed by <a href="https://betterglobeforestry.com/" style="color: rgb(228, 224, 165);">Better Globe Forestry Ltd - IT</a> 
-          </div>
+   <div class="copyright text-center">
+    <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+      <div class="d-flex flex-column align-items-center align-items-lg-start">
+        <div style="color: white;">
+          © Copyright <strong><span>Better Globe Forestry Ltd</span></strong>. All Rights Reserved
         </div>
-
-        <div class="footer-contact pt-3">
-          <!-- <ul class="footer_nav">
-            <li class="footer_nav_item"><a href="#">home</a></li>
-								<li class="footer_nav_item"><a href="about.html">about us</a></li>
-								<li class="footer_nav_item"><a href="offers.html">offers</a></li>
-								<li class="footer_nav_item"><a href="blog.html">news</a></li>
-								<li class="footer_nav_item"><a href="contact.html">contact</a></li>
-          </ul> --> 
-          <h3 style="color: rgb(151, 218, 96);">Our Links</h3>
-           <a href="about copy 2.html" style="color: aliceblue;">Who we are || </a>
-          <a href="https://betterglobeforestry.s3.amazonaws.com/newsletterwebsite/newsletter.html" target="_blank" style="color: aliceblue;">Newsletters || </a>
-          <a href="commercial.html" style="color: aliceblue;">commercial forest development</a>
-          <a href="faqs.html"  style="color: aliceblue;">|| FAQs</a>
+        <div class="credits" style="color: white;">
+          Designed by <a href="https://betterglobeforestry.com/" style="color: rgb(121, 154, 61);">Better Globe Forestry Ltd - IT</a> 
         </div>
-
       </div>
-    </div>
 
-  </footer>
+      <div class="footer-contact pt-3">
+        
+        <p style="color:#1db813;font-weight:600;margin:0;">
+          Better Globe Forestry, mission-driven, and committed to sustainable impact across Africa’s drylands. 
+        </p>
+      </div>
+      <script>
+      (function(){
+        const runner = document.getElementById('running-text');
+        const container = runner.parentElement;
+        const speed = 80; // pixels per second, increase to go faster
+
+        // Ensure measurements after layout
+        function start() {
+          let x = -runner.offsetWidth;
+          let last = performance.now();
+
+          function frame(now) {
+            const dt = now - last;
+            last = now;
+            x += speed * dt / 1000; // move right
+            // reset when text fully past right edge
+            if (x > container.offsetWidth) x = -runner.offsetWidth;
+            runner.style.transform = 'translateX(' + x + 'px)';
+            requestAnimationFrame(frame);
+          }
+
+          requestAnimationFrame(frame);
+        }
+
+        // Start after load to get correct sizes
+        if (document.readyState === 'complete') start(); else window.addEventListener('load', start);
+      })();
+      </script>
+      
+    </div>
+  </div>
+</footer>
 
 
   <!-- Scroll Top -->
